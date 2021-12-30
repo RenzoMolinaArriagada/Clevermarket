@@ -1,0 +1,3 @@
+"sep=,"
+nombre_clase,sku,nombre_producto,nombre_del_fabricante,descripcion,precio,marca,cantidad
+EjemploMuebles,SKUQWERTY123,Silla de ejemplo,SILLA01MARCA,Esta es la mejor silla de ejemplo del mundo,28000,MarcaEjemplo,40

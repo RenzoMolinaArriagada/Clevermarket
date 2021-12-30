@@ -1,0 +1,37 @@
+curl -X POST -H 'Authorization: Bearer APP_USR-1530606372439718-052002-b815e00bee1a6bb71255ab8e769da7be-762262672' -H "Content-Type: application/json" -d
+'{
+   "title":"Item de Test -No Ofertar",
+   "category_id":"MLC3530",
+   "price":650,
+   "official_store_id":null,
+   "currency_id":"CLP",
+   "available_quantity":1,
+   "buying_mode":"buy_it_now",
+   "listing_type_id":"bronze",
+   "condition":"new",
+   "description":{
+      "plain_text":"Item:, Ray-Ban WAYFARER Gloss Black RB2140 901 Model: RB2140. Size: 50mm. Name: WAYFARER. Color: Gloss Black. Includes Ray-Ban Carrying Case and Cleaning Cloth. New in Box"
+   },
+   "video_id":"YOUTUBE_ID_HERE",
+   "sale_terms":[
+      {
+         "id":"WARRANTY_TYPE",
+         "value_id":"2230280",
+         "value_name":"Garantia de vendedor"
+      },
+      {
+         "id":"WARRANTY_TIME",
+         "value_name":"90 días"
+      }
+   ],
+
+   "pictures":[
+      {
+         "source":"http://upload.wikimedia.org/wikipedia/commons/f/fd/Ray_Ban_Original_Wayfarer.jpg"
+      },
+      {
+         "source":"http://en.wikipedia.org/wiki/File:Teashades.gif"
+      }
+   ]
+}'
+https://api.mercadolibre.com/items
